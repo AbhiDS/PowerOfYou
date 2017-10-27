@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="powr-of-you">
+<meta charset="utf-8">
+<title>User's Journey</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<header>
+  <aside>June 22, 2017</aside>
+  <a href="https://www.linkedin.com/in/abhinandanmukherjee0401/" rel="author">Abhinandan Mukherjee</a>
+</header>
+
+<h1>User's Journey Visualisation</h1>
+
+<p id="chart"></p>
+
+<aside>Mouseover the year to move forward and backwards through time.</aside>
+
+<p>This is a visualisation of a dummy user's journey throughout an entire day. This shows how the user has spent the day.
+
+<p>This visual journey would be created on the basis of the desktop and mobile usage data of the user.
+
+
+<footer>
+  <aside>June 22, 2017</aside>
+  <a href="https://www.linkedin.com/in/abhinandanmukherjee0401/" rel="author">Abhinandan Mukherjee</a>
+</footer>
+
+<script type="text/javascript" src="d3.min.js" charset="utf-8"></script>
+<script>
+	d3.csv("Desktop_Data.csv", function(data) {
+		console.log(data[0]);
+	});
+</script>
+	// A bisector since many nation's data is sparsely-defined.
+		
